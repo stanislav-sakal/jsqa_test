@@ -12,7 +12,7 @@
 // Пригадаємо прості типи:
 
 // String:
-const lessonName = 'Javascript Lesson 3. Deeper to data types';
+const lessonName = 'Javascript Lesson 3. Deeper to data types.';
 
 // Number:
 const lessonId = 2;
