@@ -230,4 +230,4 @@ console.log('\nTask 03.04: TODO: Review this file and make sure you understand i
 // TODO: if you performed this task, please uncomment next line:
 // console.log('I\'ve reviewed the l-03.js file and I understand it');
 
-console.log('\nLesson 03 - Homework End');
+console.log('\nLesson 03 - Homework End.');

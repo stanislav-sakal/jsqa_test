@@ -1,8 +1,9 @@
-/*
-JavaScript Lesson 02
-- Deeper into data types.
-To execute this file: node src/app/lessons/02/l-02.js
-*/
+/**
+ * JavaScript Lesson 02
+ * - Deeper into data types.
+ * 
+ * To execute this file: node src/app/lessons/02/l-02.js
+ */
 
 // Please note - there are two types of comments in JS:
 
@@ -277,4 +278,4 @@ console.log('\nTask 02.02:');
 // Using String.substring method, log to the console characters 5-8 of the 'helloWorld' string.
 // TODO: write code here
 
-console.log('\nLesson 02 - Homework End');
+console.log('\nLesson 02 - Homework End.');
