@@ -5,13 +5,14 @@
     How to execute this lesson:
     # like: cd ~/dev/jsqa/src/app/lessons/01
     cd [project root]~/dev/jsqa/src/app/lessons/01
-   node l-01.js
+    node l-01.js
 */
 
 // JavaScript consists of executable code and comments:
 
 // 1. Executable Code:
 var a = 0;
+
 // 2. This is a single-line comment
 
 // This way, we tell interpreter to use strict mode (use it please)
@@ -103,7 +104,7 @@ function myFunction (parameter) {
 // 2. Learn it every day. E-ve-ry.
 // 3. Consistent and systematic learning:
 //  3.1 Move from Simple to Complex
-//  3.2 Language first (JS Core). Environment then (DOM).
+//  3.2 Language first (JS). Environment then (DOM).
 // 4. Left nothing unclear.
 // 5. Produce clean & well-structured code.
 // 6. Track what's happening in modern programming today (JS especially)
@@ -399,33 +400,4 @@ console.log('\nLesson 01 - Homework:\n\n!!! Please answer the questions in this 
 // Task 01.05 - 3 points
 // Q: Please write a function which calculates the difference between two numbers
 // A: TODO
-
-var a, b, diff;
-
-function firstOne() {
-	a = 1;
-	b = 5;
-	diff = a - b;
-	return diff;
-}
-
-// Question: How we can tell the JS interpreter to use strict mode?
-// Answer: TODO
-
-// Task 01.03 - 2 points
-// Q: What simple data types are used in JS?
-// A: TODO
-
-// Task 01.04 - 2 points
-// Q: What complex data types are used in JS?
-// A: TODO
-
-// Task 01.05 - 3 points
-// Q: Please write a function which calculates the difference between two numbers
-// A: TODO
-
-
-// console.log(firstOne());
-console.log(diff);
-
 // Lesson 01 Homework - End
