@@ -2,7 +2,7 @@
  * Lesson 03
  *  - Complex data types: Object, Array, Function
  *  - Variables scope, variables hoisting, var vs. let vs. const
- * To execure this file:
+ * To execute this file:
  * node src/app/lessons/03/l-03.js
  */
 
