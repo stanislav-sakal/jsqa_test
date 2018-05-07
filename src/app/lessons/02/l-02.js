@@ -1,7 +1,7 @@
 /*
-	JavaScript Lesson 02
-	 - Deeper into data types.
-	To execute this file: node src/app/lessons/02/l-02.js
+JavaScript Lesson 02
+- Deeper into data types.
+To execute this file: node src/app/lessons/02/l-02.js
 */
 
 // Please note - there are two types of comments in JS:
