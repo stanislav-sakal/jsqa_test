@@ -1,18 +1,11 @@
 /**
- * JavaScript Lesson 02
- * - Deeper into data types.
+ * JavaScript Lesson 2 - Deeper into data types.
  * 
- * To execute this file: node src/app/lessons/02/l-02.js
+ * To run this file: node src/app/lessons/02/l-02.js
  */
-
-// Please note - there are two types of comments in JS:
-
-/* - Block comment */
-// - Line comment
 
 // Let's start with it each time:
 'use strict';
-
 
 // This is how dynamic typing in JavaScript works:
 let foo = 42;
