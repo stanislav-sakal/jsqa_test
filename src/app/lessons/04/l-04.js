@@ -521,44 +521,64 @@ console.log('\nLesson 04 - Homework');
 
 // Вправи з масивами
 
+
+
 console.log('\nTask 04.01'); 
 // Points: 1
 // Прочитай файл уроку. Створи новий масив primeNumbers, що складається з перших десяти простих чисел. 
 // Використай метод push, щоб додати до масиву ще одне просте число.
 // TODO: пиши код тут:
 
+let primeNumbers;
+
+// Цей код тестує завдання:
+if (primeNumbers && primeNumbers.length === 10) {
+	console.log('Task 04.01 is DONE! ');
+} else {
+	console.log('Please make Task 04.01');
+}
+
+
+
 console.log('\nTask 04.02'); 
 // Points: 2
-// Напиши функцію sortNumbers і використай її у методі sort масиву для того, 
+// Напиши функцію sortNumbers і використай її у методі sort масиву primeNumbers для того, 
 // щоб відсортувати його елементи у зворотньому порядку.
 // TODO: пиши код тут:
+// Цей код тестує завдання:
+if (primeNumbers && primeNumbers[0] && primeNumbers[0] === 29) {
+	console.log('Task 04.02 is DONE! ');
+} else {
+	console.log('Please make Task 04.02');
+}
+
+
+
+
 
 console.log('\nTask 04.03'); 
 // Points: 2
 // За допомогою методу splice виріж з масиву елементи з другого по третій і при цьому заміни їх на рядок 'foo'.
 // TODO: пиши код тут:
+if (primeNumbers && primeNumbers[2] === 'foo') {
+	console.log('Task 04.03 is DONE! ');
+} else {
+	console.log('Please make Task 04.03');
+}
 
-// Маємо об'єкт:
 
-var student = {
-	name: 'Petro',
-	surname: 'Tymoshenko',
-	email: 'p@igov.org.ua',
-	address: 'Kyiv',
-	birthdayDate: new Date(1986, 8, 24),
-	getDaysToBirthday: function() {
-		// TODO: look for best syntax
-	},
-	getInfo: function() {
-		return this.name + ' ' + this.surname + ' ' + this.adress + ' ' + this.birthdayDate.toDateString();
-	}
-};
+
+
 
 console.log('\nTask 04.04');
 // Points: 2 
 // Використай метод Array.forEach для того, 
 // щоб додати до кожного елементу масиву [21, 63, 84] число '42'
 // TODO: пиши свій код тут:
+console.log('Please make Task 04.04');
+
+
+
 
 
 console.log('\nTask 04.05');
@@ -585,6 +605,9 @@ if (cleanedUp) {
 } else {
 	console.log('Please make Task 04.05');
 }
+
+
+
 
 console.log('\nTask 04.06');
 // Points: 3
