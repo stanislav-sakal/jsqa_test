@@ -532,7 +532,7 @@ console.log('\nTask 04.01');
 let primeNumbers;
 
 // Цей код тестує завдання:
-if (primeNumbers && primeNumbers.length === 10) {
+if (primeNumbers && primeNumbers.length === 11) {
 	console.log('Task 04.01 is DONE! ');
 } else {
 	console.log('Please make Task 04.01');
@@ -546,7 +546,7 @@ console.log('\nTask 04.02');
 // щоб відсортувати його елементи у зворотньому порядку.
 // TODO: пиши код тут:
 // Цей код тестує завдання:
-if (primeNumbers && primeNumbers[0] && primeNumbers[0] === 29) {
+if (primeNumbers && primeNumbers[0] && primeNumbers[0] === 31) {
 	console.log('Task 04.02 is DONE! ');
 } else {
 	console.log('Please make Task 04.02');
