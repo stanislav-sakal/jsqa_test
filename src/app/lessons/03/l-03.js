@@ -1,9 +1,10 @@
 /** 
- * Lesson 03
+ * JavasScrip Lesson 3
+ *
  *  - Complex data types: Object, Array, Function
  *  - Variables scope, variables hoisting, var vs. let vs. const
- * To execute this file:
- * node src/app/lessons/03/l-03.js
+ *
+ * To run this file: node src/app/lessons/03/l-03.js
  */
 
 // Спочатку було слово, і воно було:
