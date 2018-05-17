@@ -210,25 +210,49 @@ console.log('\nTask 03.01:');
 // Task 03.01
 // Points: 2
 // In code above, we created 'lesson' object. Add 'date' property to it, having null value.
-// TODO: write code here
+/*const lesson = {
+  name: 'Lesson 03 - Data Types (continued)',
+   id: 3,
+   folder: null,
+  checkHomework: function (students) {
+   }
+};*/
+
+lesson.date = null;
 
 console.log('\nTask 03.02');
 // Task 03.02
 // Points: 3
 // Add getInfo method to the lesson object, it should log lesson info to the console: lesson name, id and date.
-// TODO: write code here
-
+const lesson = {
+    name: 'Lesson 03 - Data Types (continued)',
+    id: 3,
+    folder: null,
+    date : null,
+    checkHomework: function (students) {
+    },
+    getInfo: function () {
+    console.log(this.name +', ' + this.id +', ' + this.date)}
+};
+lesson.getInfo(); //Lesson 03 - Data Types (continued), 3, null
 console.log('\nTask 03.03');
 // Task 03.03
 // Points: 2
 // In code above, we defined the 'student' object. 
 // Add 'birthday' property to it, set it's value to new Date(1991,8,24);
-// TODO: write code here
+/*const student = {
+    name: 'name_value',
+    surname: 'surname_value'
+};*/
+
+student.birthday = new Date(1991,8,24);
 
 console.log('\nTask 03.04: TODO: Review this file and make sure you understand it.');
 // Task 03.04
 // Points: 1
 // TODO: if you performed this task, please uncomment next line:
-// console.log('I\'ve reviewed the l-03.js file and I understand it');
+console.log('I\'ve reviewed the l-03.js file and I understand it');
 
 console.log('\nLesson 03 - Homework End.');
+
+
