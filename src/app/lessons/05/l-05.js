@@ -543,7 +543,7 @@ if (createdByConstructor && createdByConstructor === 'birthdayDate') {
 console.h1('Task 05.02');
 
 // Points: 1
-// TODO: пиши код тут:
+console.log('Please find this task in line 582');
 console.log('\n\tPlease implement this task and few tests to check it');
 
 // 05.02.1 Який з цих прикладів є невірним зразком створення та ініціалізації змінної:
@@ -575,9 +575,20 @@ console.log('\n\tPlease implement this task and few tests to check it');
 // 
 // 05.02.4 Який з цих виразів є помилковим?
 // 
-// 1. x * y == z
-// 2. x + y = z // This one is incorrect
+// 1. x * y == z'
+// 2. x + y = z // This one is incorrect';
 // 3. x = y + (z = i / (k = m * n))
+
+var version_1 = 'x * y == z';
+var version_2 = 'x + y = z';
+var version_3 = 'x = y + (z = i / (k = m * n))';
+
+var MyAnswer = version_2;
+if (MyAnswer === version_2){
+	console.log('This task is done.');
+}else{
+console.log('Please, do this task.');
+}
 // 
 // 
 // 05.02.5 Який з цих операторів означає "логічне АБО"?
